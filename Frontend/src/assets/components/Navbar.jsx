@@ -48,10 +48,18 @@ function Navbar() {
         <a href="/course">Course</a>
       </li>
       <li>
-        <a href="/contact">Contact</a>
+        <Link to="/contact">
+          <a className="link link-hover no-underline underline-offset-0">
+            Contact
+          </a>
+        </Link>
       </li>
       <li>
-        <a href="/about">About</a>
+        <Link to="/about">
+          <a className="link link-hover no-underline underline-offset-0">
+            About
+          </a>
+        </Link>
       </li>
     </>
   );
