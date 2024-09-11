@@ -24,7 +24,7 @@ function Signup() {
         password: data.password,
       };
 
-      const res = await axios.post( `http://localhost:4001/user/signup`, userInfo);
+      const res = await axios.post( `https://bookies-six.vercel.app/user/signup`, userInfo);
 
       if (res.data) {
         toast.success("Signup Successful");
